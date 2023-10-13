@@ -1,0 +1,29 @@
+.hello-world {
+  color: magenta;
+  font-size: 24px;
+}
+
+.inline {
+  display: inline; 
+  
+}
+
+.block {
+  display: block;
+  
+}
+
+.inline-block {
+  display: inline-block;
+  
+}
+
+.wrapper {
+  outline: solid red;
+  padding: 28px;
+  margin: 20px;
+}
+
+.p-wrapper {
+  outline: solid blue;
+}
