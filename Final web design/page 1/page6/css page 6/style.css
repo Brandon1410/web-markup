@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header{
+  display: flex;
+}
+
+.logo{
+  width: 150px;
+  height: 75px;
+  padding-bottom: 20px;
+}
+
+nav{
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+label{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: black;
+  transition: .5s;
+}
+
+.banner{
+  background-image: url("../img/Nieuwkoop\ background.jpg");
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner h1{
+  color: white;
+  font-size: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-form{
+  background-color: black;
+  padding: 40px;
+}
+
+.form-container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-container h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.form-container label{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form-container input, .form-container select, .form-container textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.form-container button{
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  color: white;
+}
+
+
+.footer-content a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-content a:hover {
+  color: white;
+  text-decoration: underline;
+}

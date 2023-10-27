@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header{
+  display: flex;
+}
+
+.logo{
+  width: 150px;
+  height: 75px;
+  padding-bottom: 20px;
+}
+
+nav{
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+label{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: black;
+  transition: .5s;
+}
+
+.overlaping img{
+  height: 300px;
+  width: 1500px;
+}
+
+.title{
+ color: white;
+ position: absolute;
+ top: 30%;
+ padding: 10px;
+ font-size: 30px;
+}
+
+.section img{
+  width: 800px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.text p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1000px;
+  margin: 0;
+  text-align: center;
+  padding-left: 20%;
+  line-height: 1;
+  text-indent: 10px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section a{
+   padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  padding-left: 19%;
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  color: white;
+}
+
+.footer-content a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-content a:hover {
+  color: white;
+  text-decoration: underline;
+}
