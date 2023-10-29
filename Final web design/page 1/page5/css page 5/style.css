@@ -98,6 +98,10 @@ a.active,a:hover{
   font-family: 'Open Sans', sans-serif;
 }
 
+a:link{
+  color: green;
+}
+
 footer {
   background-color: black;
   padding: 10px;
