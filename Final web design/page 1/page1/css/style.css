@@ -100,11 +100,10 @@ a.active,a:hover{
 }
 
 .right-column p{
-  white-space: pre-line;
   padding-top: 20px;
-  line-height: 1;
+  line-height: 1.5;
   text-indent: 25px;
-  word-spacing: 1px;
+  word-spacing: px;
   letter-spacing: normal;
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
